@@ -115,12 +115,15 @@ td {
 }
 
 .delete {
+  border: none;
   color: red;
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
 }
 
 /* section create */
 .create-container {
-  margin-top: 24px;
+  margin-top: 10px;
   margin-bottom: 32px;
   display: flex;
   flex-direction: column;
@@ -145,6 +148,6 @@ td {
   cursor: pointer;
 }
 
-.create-button:hover {
+.create-button:active {
   background-color: brown;
 }

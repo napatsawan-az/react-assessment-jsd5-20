@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "./Nav";
-import HomeUser from "./HomeUser";
-import HomeAdmin from "./HomeAdmin";
+import Nav from "./Component/Nav";
+import HomeUser from "./Page/HomeUser";
+import HomeAdmin from "./Page/HomeAdmin";
 import { useState } from "react";
 import "./App.css";
 

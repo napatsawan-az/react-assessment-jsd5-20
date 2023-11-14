@@ -121,6 +121,14 @@ td {
   cursor: pointer;
 }
 
+.update {
+  border: none;
+  color: green;
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+  margin-left: 8px;
+}
+
 /* section create */
 .create-container {
   margin-top: 10px;
